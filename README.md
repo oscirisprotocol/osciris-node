@@ -52,15 +52,16 @@ Each figure comes from memory measured shard by shard on Apple Metal, and on NVI
 
 ## Downloads
 
-Releases are published on the [Releases page](../../releases), one asset per platform:
+Latest: **[OSCIRIS Node 0.1.3](https://github.com/oscirisprotocol/osciris-node/releases/tag/v0.1.3)** (closed beta pre-release). All releases are on the [Releases page](../../releases).
 
 | Platform | Installer |
 |---|---|
-| macOS (Apple Silicon) | `.dmg` |
-| Windows (x64) | `.msi` or `-setup.exe` |
-| Linux (x86_64) | `.AppImage` or `.deb` |
+| macOS (Apple Silicon) | [`OSCIRIS.Node_0.1.3_aarch64.dmg`](https://github.com/oscirisprotocol/osciris-node/releases/download/v0.1.3/OSCIRIS.Node_0.1.3_aarch64.dmg) |
+| Windows (x64) | [`OSCIRIS.Node_0.1.3_x64-setup.exe`](https://github.com/oscirisprotocol/osciris-node/releases/download/v0.1.3/OSCIRIS.Node_0.1.3_x64-setup.exe) or [`.msi`](https://github.com/oscirisprotocol/osciris-node/releases/download/v0.1.3/OSCIRIS.Node_0.1.3_x64_en-US.msi) |
+| Linux (x86_64, Ubuntu 22.04 or newer) | [`OSCIRIS.Node_0.1.3_amd64.AppImage`](https://github.com/oscirisprotocol/osciris-node/releases/download/v0.1.3/OSCIRIS.Node_0.1.3_amd64.AppImage) or [`.deb`](https://github.com/oscirisprotocol/osciris-node/releases/download/v0.1.3/OSCIRIS.Node_0.1.3_amd64.deb) |
+| Intel Mac | Coming soon |
 
-Every release lists the SHA-256 checksum of each file. Builds that support the GPU beta are sent to invited members first and published here afterwards.
+Every release includes `SHA256SUMS.txt` with the checksum of each file. Joining with a GPU opens to invited members in rounds.
 
 ### Installing a build that is not from an app store
 
