@@ -36,8 +36,8 @@ The open [Kimi Linear 48B](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B
 | Mac with Apple Silicon | 24 GB or more | All 27 |
 | Ubuntu PC (x86_64) with an NVIDIA GPU | 8–11 GB VRAM | 20 of 27 |
 | Ubuntu PC (x86_64) with an NVIDIA GPU | 12 GB VRAM or more | All 27 |
-| Windows PC (x64) with an NVIDIA GPU, first testers | 8–12 GB VRAM | 20 of 27 |
-| Windows PC (x64) with an NVIDIA GPU, first testers | More than 12 GB VRAM | All 27 |
+| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | 8–12 GB VRAM | 20 of 27 once joining opens |
+| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | More than 12 GB VRAM | All 27 once joining opens |
 | WSL 2, Linux ARM, Intel Mac, AMD or Intel GPU, CPU only | — | Coming soon |
 
 Each figure comes from memory measured shard by shard on Apple Metal, and on NVIDIA CUDA on Ubuntu and on Windows, at 4,096 tokens of context. A Mac keeps 8 GB of its memory free for macOS, and a Windows PC keeps 1 GB of GPU memory free for the desktop. Each machine hosts exactly one shard.
