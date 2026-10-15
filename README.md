@@ -32,8 +32,8 @@ The open [Kimi Linear 48B](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B
 
 | Machine | Memory | Shards it can host |
 |---|---|---|
+| Mac with Apple Silicon | 16–23 GB | 19 of 27; joins the first round |
 | Mac with Apple Silicon | 24 GB or more | 26 of 27; joins the first round |
-| Mac with Apple Silicon: test kit first | 16–23 GB | Up to 19 of 27, if the test kit shows it fits |
 | Ubuntu PC (x86_64) with an NVIDIA GPU: test kit now, joining later | 8–11 GB VRAM | 19 of 27 once joining opens |
 | Ubuntu PC (x86_64) with an NVIDIA GPU: test kit now, joining later | 12 GB VRAM or more | 26 of 27 once joining opens |
 | Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | 8–12 GB VRAM | 19 of 27 once joining opens |
