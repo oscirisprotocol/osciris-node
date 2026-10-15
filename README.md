@@ -32,15 +32,15 @@ The open [Kimi Linear 48B](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B
 
 | Machine | Memory | Shards it can host |
 |---|---|---|
-| Mac with Apple Silicon | 16–23 GB | 20 of 27 |
-| Mac with Apple Silicon | 24 GB or more | All 27 |
-| Ubuntu PC (x86_64) with an NVIDIA GPU | 8–11 GB VRAM | 20 of 27 |
-| Ubuntu PC (x86_64) with an NVIDIA GPU | 12 GB VRAM or more | All 27 |
-| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | 8–12 GB VRAM | 20 of 27 once joining opens |
-| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | More than 12 GB VRAM | All 27 once joining opens |
-| WSL 2, Linux ARM, Intel Mac, AMD or Intel GPU, CPU only | — | Coming soon |
+| Mac with Apple Silicon | 24 GB or more | 26 of 27; joins the first round |
+| Mac with Apple Silicon: test kit first | 16–23 GB | Up to 19 of 27, if the test kit shows it fits |
+| Ubuntu PC (x86_64) with an NVIDIA GPU: test kit now, joining later | 8–11 GB VRAM | 19 of 27 once joining opens |
+| Ubuntu PC (x86_64) with an NVIDIA GPU: test kit now, joining later | 12 GB VRAM or more | 26 of 27 once joining opens |
+| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | 8–12 GB VRAM | 19 of 27 once joining opens |
+| Windows PC (x64) with an NVIDIA GPU: test kit now, joining later | More than 12 GB VRAM | 26 of 27 once joining opens |
+| WSL 2, Linux ARM, Intel Mac, AMD or Intel GPU, NVIDIA RTX 50 or GTX 10 and older, CPU only | — | Coming soon |
 
-Each figure comes from memory measured shard by shard on Apple Metal, and on NVIDIA CUDA on Ubuntu and on Windows, at 4,096 tokens of context. A Mac keeps 8 GB of its memory free for macOS, and a Windows PC keeps 1 GB of GPU memory free for the desktop. Each machine hosts exactly one shard.
+Each figure comes from memory measured shard by shard on Apple Metal, and on NVIDIA CUDA on Ubuntu and on Windows, at 4,096 tokens of context. A Mac keeps 8 GB of its memory free for macOS, and a Windows PC keeps 1 GB of GPU memory free for the desktop. Each machine hosts exactly one shard. Layer 0 is not offered yet, so a machine hosts at most 26 of the 27 shards. NVIDIA needs driver 580 or newer on Ubuntu, or 576 or newer on Windows.
 
 ### How joining works
 
